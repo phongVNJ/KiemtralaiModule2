@@ -15,15 +15,16 @@ public class Thaotac {
 
     public void menu(){
         System.out.println("-----QUAN LI DANH BA------");
-        System.out.println("1.CHOOSE A NUMBER TO CONTINUE");
-        System.out.println("2.ADD A NEW PHONE");
-        System.out.println("3.APDATE");
-        System.out.println("4.REMOVE");
-        System.out.println("5.SEARCH");
-        System.out.println("6.READ TO FILE");
-        System.out.println("7.WRITE TO FILE");
-        System.out.println("8.EXIT");
-        System.out.println("PLEASE CHOOSE ");
+        System.out.println(".CHOOSE A NUMBER TO CONTINUE");
+        System.out.println("1.ShowList");
+        System.out.println("2.ADD");
+        System.out.println("3.Update");
+        System.out.println("4.Remove");
+        System.out.println("5.Search");
+        System.out.println("6.ReadtoFile");
+        System.out.println("7.WritetoFile");
+        System.out.println("8.Exit ");
+        System.out.println("Please chose");
     }
     public void demo(){
         arrayList.add(person1);
